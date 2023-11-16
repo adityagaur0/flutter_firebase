@@ -1,0 +1,50 @@
+name: flutter_firebase
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.3 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+
+  ## -- FONT PACKAGE
+  google_fonts: ^6.1.0
+  
+  
+  ## -- STATE MANAGEMENT
+  get: ^4.6.6
+
+  ## -- OTP TEXT FIELD PACKAGE
+  flutter_otp_text_field: ^1.1.1
+ 
+  ## -- FIREBASE PACKAGE
+  cloud_firestore: ^4.13.1
+  firebase_core: ^2.22.0
+  firebase_auth: ^4.14.0
+  
+  ## -- ICON PACKAGE
+  cupertino_icons: ^1.0.2
+  line_awesome_flutter: ^2.0.0
+  google_sign_in: ^6.1.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/logo/
+    - assets/profile/
+    
+
+  
